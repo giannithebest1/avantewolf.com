@@ -1,0 +1,15 @@
+To run the website locally, first install Node.js:
+
+1. Install the LTS version of Node.js from nodejs.org.
+2. Open CMD and CD to the website folder.
+3. Type the following into CMD: npm install
+
+---
+
+If Node.js is installed, do the following to run the server locally:
+
+1. To start the server, type the following into CMD: npm run serve
+2. Then go to http://localhost:8080/ in your browser to view the site.
+
+
+

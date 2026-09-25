@@ -1,0 +1,22 @@
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="logo">Avante</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="{% if pageKey == 'home' %}active{% endif %}">Home</a></li>
+            <li><a href="art.html" class="{% if pageKey == 'art' %}active{% endif %}">Art</a></li>
+            <li><a href="fursuiting.html" class="{% if pageKey == 'fursuiting' %}active{% endif %}">Fursuiting</a></li>
+            <li><a href="links.html" class="{% if pageKey == 'links' %}active{% endif %}">Links</a></li>
+            <li>
+                <a href="https://trello.com/b/ZBiLQ32o" target="_blank" rel="noopener noreferrer">
+                    Made By Avante
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 4px; vertical-align: baseline;">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </a>
+            </li>
+            <li><a href="about.html" class="{% if pageKey == 'about' %}active{% endif %}">About</a></li>
+        </ul>
+    </div>
+</nav>
